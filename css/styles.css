@@ -1,0 +1,835 @@
+
+/*surround navbar*/
+
+.con{
+    margin: auto;
+    padding-right: 100px;
+}
+
+/*header*/
+
+#title{
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  background-color: #222831;
+}
+
+.navbar {
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  background-color: #222831;
+  padding: 1% 0 1% 0;
+}
+
+.nav-link{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+
+.nav-item {
+  padding: 0 4.5%;
+}
+
+@media (max-width:600px){
+  .con {
+    padding: 0;
+  }
+  .nav-link {
+    text-align: center;
+  }
+}
+
+.coverphoto{
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.esntitle {
+  color: #cbf1f5;
+  text-align: center;
+  padding: 4%;
+  margin-bottom: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+}
+
+@media (max-width: 680px) {
+  .esntitle {
+    font-size: 3rem;
+  }
+}
+
+/*About*/
+
+/* #features */
+#features {
+  background-image:url("https://i.imgur.com/m2Og4nk.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex.png'); */
+  width: 100%;
+  padding: 7% 13% 2% 13%;
+  text-align: center;
+}
+
+
+/* .transBox {
+  text-align: center;
+  background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png');
+  opacity: 0.4;
+  background-color: #222831;
+  width: 100%;
+  padding: 3% 13%;
+
+} */
+
+.feature-title {
+  color: #537ec5;
+  padding: 3% 0 10% 0;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+}
+@media (max-width: 680px) {
+  .feature-title {
+    font-size: 3rem;
+  }
+}
+/*feature icons*/
+
+.icon {
+  color: #537ec5;
+  font-size: 400%;
+}
+
+.icon:hover {
+  color: #64b2cd;
+}
+
+.feat {
+  color: #537ec5;
+  padding:7% 5% 0 5%;
+  font-family: 'Ubuntu', monospace;
+  font-weight: 600;
+  font-size: 1.1rem;;
+}
+@media (max-width: 680px) {
+  .feat {
+    font-size: 0.9rem;
+  }
+}
+/*news*/
+
+#news {
+  background-image:url("https://i.imgur.com/m2Og4nk.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex.png'); */
+  background-color: #fff;
+  padding: 7% 7% 7% 7%;
+  text-align: center;
+}
+
+.listing {
+  padding: 0 27%;
+}
+
+.news-button {
+  color: #cbf1f5;
+  font-family: 'Bebas Neue', cursive;
+  padding: 0 0 3% 0;
+}
+
+.btn-lg {
+  font-size: 3rem;
+}
+
+.list-group-item {
+  background-color: #fafafa;
+  border: 2px dashed #c1c1c1;
+  padding:1%;
+}
+
+.article {
+  font-family: 'roboto monospace';
+  text-align:center;
+  font-size: 0.9rem;
+}
+
+.small {
+  font-size: 0.6rem;
+}
+.rg {
+  float: right;
+}
+
+@media (max-width: 680px) {
+  .btn-lg {
+    font-size: 2rem;
+  }
+  .listing {
+    padding: 0 15%;
+  }
+}
+/* newszone */
+.news-button1 {
+  padding:2%;
+  font-family: 'Bebas Neue', cursive;
+}
+.paper {
+  padding: 3%;
+  text-align: center;
+  border-left: 2px dashed #222831;
+  font-family: 'ubuntu' monospace;
+}
+.headnews{
+  font-family: 'Quattrocento', cursive;
+  color: #222831;
+  font-weight: bold;
+}
+.abstract {
+  padding: 3% 7% 0 7%;
+  text-align: justify;
+  font-family: 'ubuntu' monospace;
+  color: #3c4f65;
+}
+.rb{
+  padding: 0 2%;
+  color: #3c4f65;
+}
+.text-gray {
+  color: #3c4f65;
+  font-family: 'ubuntu'monospace;
+}
+a.newslink {
+  text-decoration-color: #92a4c0 ;
+}
+
+.newshr {border-style: none;
+    border-top:2px dashed #222831;
+    width: 35%;
+    }
+
+@media (max-width:770px) {
+  .news-button {
+    height: 5em;
+    line-height: 3em;
+  }
+  .news-button1{
+    padding: 3% 0 5% 0;
+  }
+  .paper {
+    border-left: none;
+  }
+}
+
+/* newsarrow */
+
+.readmore{
+  text-align: center;
+  width:100%;
+  padding-top: 4%;
+}
+
+.arrow.-large {
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
+.arrow.-purple {
+  width: 12px;
+  height: 12px;
+  border: none;
+  background: none;
+  position: relative;
+  display: inline-block;
+}
+
+.arrow.-purple::before {
+  top: 2px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  box-shadow: 2px 2px 0 #64b2cd, 3px 2px 0 #64b2cd, 2px 3px 0 #64b2cd, 3px 3px 0 #64b2cd;
+}
+
+.arrow.-back::before {
+  right: 8px;
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+}
+
+.arrow.-purple::after {
+  width: 0;
+  height: 0;
+  left: -1px;
+  bottom: 50%;
+  content: '•';
+  color: #64b2cd;
+  line-height: 0;
+  font-size: 14px;
+  position: absolute;
+  transition: left .1s ease-out, bottom .1s ease-out, letter-spacing .1s ease-out;
+}
+
+.arrow.-purple:hover, .arrow.-purple:focus {
+  outline: none;
+}
+.arrow.-purple:hover::after, .arrow.-purple:focus::after {
+  left: 1px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button {
+  display: none !important;
+}
+
+/* products */
+
+#products {
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  background-color: black;
+}
+
+.product-title{
+  padding-top: 8%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 4rem;
+  color:  #e3f6f5;
+}
+.prow1 {
+  padding: 7% 15% 3% 15%;
+}
+
+.prow2 {
+  padding: 3% 15% 12% 15%;
+}
+
+@media (max-width:600px) {
+  .prow1 {
+    padding: 5% 15% 0;
+  }
+
+  .prow2 {
+    padding: 0 15% 10%;
+  }
+}
+
+.irow1 {
+    width:99.9%;
+    height:90%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width:80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imagecon:hover .i1 {
+  opacity: 0.3;
+}
+
+.imagecon:hover .irow1 {
+  opacity: 0.3;
+}
+
+.imagecon:hover .middle {
+  opacity: 0.6;
+}
+
+.caption {
+  background-color: #525252;
+  color: white;
+  font-size: 0.9rem;
+  padding: 3px 3px;
+}
+
+#footer {
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  background-color: black;
+  opacity: 0.95;
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.contact {
+  border-radius: 5%;
+}
+
+.btn-outline-light{
+  font-family: Quattrocento;
+}
+
+.copyright {
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7rem;
+  padding-top: 3%;
+}
+
+/* aboutpage */
+/* aim */
+
+#aim {
+  background-image:url("https://i.imgur.com/m2Og4nk.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex.png'); */
+  background-color: #fff;
+  padding: 9% 0;
+  text-align: center;
+}
+
+.listed {
+  text-align:left;
+  display: inline-block;
+  color: #525252;
+  font-family: "Quattrocento" cursive;
+  font-weight: bold;
+}
+
+.ouraim {
+  color: #525252;
+  font-family:"Bebas Neue";
+  padding: 0 0 2% 15%;
+  font-size: 4rem;
+  text-align: left;
+}
+
+
+.area {
+  text-align: center;
+  padding: 0;
+}
+
+.aimline {
+  color: #525252;
+  font-family:"Quattrocento";
+  font-weight: bolder;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.heavy {
+  padding: 0 0 2% 0;
+  color: #92a4c0;
+}
+
+.achieved {
+  color: #92a4c0;
+  display: block;
+  padding: 0 15%;
+  text-align: justify;
+}
+@media (max-width:680px) {
+.ouraim{
+  font-size: 3rem;
+}
+.listed, .aimline {
+  font-size: 0.9rem;
+}
+}
+@media (max-width:980px) {
+  .area, .listed, .aimline {
+    padding: 0 15%;
+  }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    outline: ;
+    background-size: 50% 50%;
+    background-radius: 70%;
+    border: 1px solid #525252;
+}
+
+/* services */
+
+#services {
+  background-color: #183661;
+  opacity: 0.85;
+  position: relative;
+  padding: 32.5%;
+}
+
+.image-service {
+  width: 85%;
+  position: absolute;
+  left:7%;
+  top: 0;
+}
+
+/* tagline */
+
+#tagline {
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  padding: 13%;
+  color: black;
+  text-align: center;
+  position:relative;
+}
+
+.red {
+  color:#fafafa;
+}
+
+/* productpage */
+
+#categories {
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url("/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png"); */
+  background-color: #000;
+  padding: 7% 15% 3% 15%;
+}
+
+.category-title {
+  padding: 0 0 5% 0;
+  text-align: center;
+  font-family: 'crimson', cursive;
+  font-size: 1.3rem;
+  color: #bae8e8;
+}
+
+.prow3 {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+  height: 90%;
+  opacity: 0.8;
+  margin: auto;
+}
+
+.cat2 {
+  width: 60%;
+  height: 90%;
+  opacity: 0.8;
+  margin-left: 35%;
+}
+
+.cat3 {
+  width: 60%;
+  height: 90%;
+  opacity: 0.8;
+  margin-right: 35%;
+}
+
+.card-title {
+  font-family: "Quattrocento";
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+@media (max-width: 575px) {
+  .card-title{
+    font-size: 0.8rem;
+  }
+  .card {
+    width: 40%;
+  }
+  .cat1 {
+    padding: 3% 0;
+  }
+  .prow3 {
+    padding: 0 0;
+  }
+  .cat2, .cat3 {
+    margin:auto;
+  }
+}
+
+a.catlink {
+   text-decoration: none;
+   color:#6fc2d0;
+   }
+
+   /* unvisited link */
+   /* a.catlink:link {
+     color:#55968f;
+   } */
+
+   /* visited link */
+   /* a.catlink:visited {
+     color:#6fc2d0;
+   } */
+
+   /* mouse over link */
+   a.catlink:hover {
+     color: #92a4c0;
+   }
+
+
+ /* boardcat */
+
+#categorycontainer {
+  background-color: #222831;
+}
+
+#newcategories {
+  background-color: #222831;;
+}
+
+.rmar {
+  margin: 0;
+}
+
+.boardcat {
+  padding: 0 0 5% 0;
+  text-align: center;
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url("/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png"); */
+  opacity: 0.7;
+ }
+
+ .board {
+   width: 6.5rem;
+   height: 5.5rem;
+   opacity: 0.9;
+   margin: auto;
+   text-align: center;
+   display: table;
+ }
+
+ .selected {
+   width: 6.5rem;
+   height: 5.5rem;
+   opacity: 0.5;
+   margin: auto;
+ }
+
+ .board-title{
+   font-family: "Quattrocento",monospace;
+   font-size: 0.9rem;
+   font-weight: bold;
+   padding-top: 3%;
+ }
+
+ .catsmall {
+   padding: 8% 2%;
+   display: table-cell;
+   vertical-align: middle;
+ }
+
+ .prow4 {
+   align-items: center;
+   display:flex;
+   justify-content: center;
+   padding: 5% 0;
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+.boardproducts {
+  padding-left: 0;
+  padding-right: 0;
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url("/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png"); */
+  opacity: 0.8;
+}
+
+.cat-title {
+  padding: 30% 7% 10% 7%;
+  text-align: center;
+  font-family: 'crimson', cursive;
+  font-size: 1.5rem;
+  color: #bae8e8;
+}
+
+@media (max-width: 600px) {
+  .prow4 {
+    padding: 15% 0;
+  }
+  .cat-title {
+    font-size: 1.1rem;
+    padding: 8% 0 3% 0;
+  }
+  .board, .selected {
+    width: 4.5rem;
+    height: 3rem;
+  }
+  .board-title{
+    font-size: 0.6rem;
+  }
+}
+
+/* product specifics */
+.pdtzone{
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image:url("/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png"); */
+  opacity: 0.8;
+  font-family: 'ubuntu', monospace;
+  font-size: 1rem;
+}
+.zoned {
+  color: #fffdf9;
+  text-align: center;
+  width: 100%;
+}
+.titlezone {
+   font-family: 'Bebas Neue', cursive;
+   font-size: 3rem;
+   padding-top: 10%;
+}
+@media (max-width: 600px){
+  .titlezone{
+    font-size: 2rem;
+  }
+}
+.notitlezone{
+  padding-top: 6%;
+}
+.imagezone {
+  float: left;
+  padding: 5%;
+}
+.ipdtzone {
+  width: 90%;
+  height: 90%;
+}
+.zonehr {
+  border-style: none;
+  border-top:2px dashed #f5feff;
+  width: 20%;
+}
+.introzone {
+  font-family: 'ubuntu', monospace;
+  font-size: 0.9rem;
+  padding: 5%;
+  height: 450px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.introzone4{
+  font-family: 'ubuntu', monospace;
+  font-size: 0.9rem;
+  padding: 5%;
+  height: 320px;
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 900px) {
+  .introzone, .introzone4 {
+    display:inline-block;
+    padding: 5% 3%;
+    height: auto;
+  }
+.imagezone{
+    float:none;
+  }
+}
+
+/* hr {border-style: none;
+    border-top:2px dashed #66bfbf;
+    width: 70%;
+    } */
+
+.liststyle {
+  list-style-type:lower-alpha;
+}
+.specifics {
+  color: #92a4c0;
+  padding: 3% 5%;
+}
+.justify {
+  text-align: justify;
+  padding-right: 10%;
+}
+.extraimagezone {
+  width:90%;
+}
+.imcent {
+  width:100%;
+  text-align: center;
+}
+.emaillink {
+  text-align:center;
+  color: #55968f;
+  padding: 3%;
+}
+
+/* contactpage */
+
+#getintouch {
+  padding: 3%;
+  background-image:url("https://i.imgur.com/tny7vjO.png");
+  /* background-image: url('/Volumes/XY storage/web development/ESN-Start-master/images/what-the-hex-dark.png'); */
+  background-color: black;
+  opacity: 0.97;
+  font-family: 'roboto', monospace;
+  font-size: 1rem;
+}
+.contactus {
+  color: #f5feff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.esnmap {
+  color: #f5feff;
+  padding: 8% 3% 7%;
+  text-align: center;
+}
+.imagemap {
+  width:75%;
+  padding-top: 0;
+}
+.trusted {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.3rem;
+}
+@media (max-width: 600px) {
+  .trusted {
+    font-size:2rem;
+  }
+}
+h6 {
+  margin:0;
+}
+a.contactlink {
+  color: #f5feff;
+}
+.addressicon {
+  padding:15% 0 20%;
+}
+.addressicon:hover {
+  color: #55968f;
+}
+@media (max-width:770px) {
+  .addressicon {
+    padding:7% 0;
+  }
+  .contactus {
+    padding: 10% 15% 5%;
+  }
+}
